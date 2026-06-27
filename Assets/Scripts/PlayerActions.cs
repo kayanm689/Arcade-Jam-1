@@ -75,7 +75,7 @@ public class PlayerActions : MonoBehaviour {
                     
                     // Locate the weapon position to use as the spawn point location
                     Transform spawnPoint = _playerWeapon.weapon.transform;
-                    
+                        animayor.Play("sadasd");
                     // Instantiate the projectile at the weapon's position and rotation
                     GameObject newObject = Instantiate(xObject, spawnPoint.position, spawnPoint.rotation);
                     
